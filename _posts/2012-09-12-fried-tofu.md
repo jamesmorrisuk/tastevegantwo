@@ -4,7 +4,7 @@ title:  "Fried Tofu"
 image:  buns.jpg
 ---
 
-# Welcome
+Ingredients:
 
 Tofu
 Bread
