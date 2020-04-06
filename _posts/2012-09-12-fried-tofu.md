@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fried Tofu"
-image:  buns.jpg
+image:  ![buns](/img/buns.jpg)
 ---
 
 Ingredients
