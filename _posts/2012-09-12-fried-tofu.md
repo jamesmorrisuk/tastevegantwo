@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Fried TOfu
+title:  "Fried Tofu"
 ---
 
-#Ingredients:
+# Welcome
 
 Tofu
 Bread
-Water
-
-Ok so fsdsdfsdfs
+WATER
