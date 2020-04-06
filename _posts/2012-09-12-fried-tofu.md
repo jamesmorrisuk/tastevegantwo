@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Fried Tofu"
+image:  11.jpg
 ---
 
 # Welcome
