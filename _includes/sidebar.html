@@ -74,22 +74,11 @@
     <h3 class="widget-title">Instagram</h3>
     <div class="instagram-box">
       <ul id="instafeed" class="instagram-grid list-reset clearfix"></ul>
-      <a class="instagram-prof" href="#">&#64;jamesmorrisinsta</a>
+      <a class="instagram-prof" href="#">&#64;http://www.instagram.com/jamesmorrisinsta</a>
     </div>
   </div>
   {% endif %}
 
-  <div class="widget widget-tags">
-    <h3 class="widget-title">Tag Cloud</h3>
-    {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{%
-    endcapture %} {% assign tag_words = site_tags | split:',' | sort %}
-    <ul class="tag-list list-reset">
-    {% for item in (0..site.tags.size) %}{% unless forloop.last %}
-      {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-        <li class="tag-item"><a href="{{ site.baseurl }}/tags#{{ this_word | cgi_escape }}" class="tag">{{ this_word }}</a></li>
-      {% endunless %}
-    {% endfor %}
-    </ul>
-  </div>
+  
   
 </aside> <!-- /.sidebar -->
